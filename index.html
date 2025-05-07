@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoolStore | Trendy & Affordable Online Shopping</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FontAwesome for search icon -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>🛍️ CoolStore</h1>
+
+        <div class="search-box">
+          <input
+            type="text"
+            id="product-search"
+            placeholder="Search products..."
+          />
+          <i class="fas fa-search"></i>
+        </div>
+
+        <button class="nav-toggle" id="nav-toggle">&#9776;</button>
+        <nav id="navbar">
+          <a href="#">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">Contact</a>
+          <a href="#" class="cart">Cart <span id="cart-count">0</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Upgrade Your Style</h2>
+        <p>Trendy picks. Best prices. Fast delivery.</p>
+        <a href="#" class="btn">Shop the Collection</a>
+      </div>
+    </section>
+
+    <section class="products" id="product-list">
+      <a href="product1.html" class="product">
+        <img
+          src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?fit=crop&w=600&h=400&q=80"
+          alt="Sneakers"
+        />
+        <h3>Retro Sneakers</h3>
+        <p>$59.99</p>
+      </a>
+      <a href="product2.html" class="product">
+        <img
+          src="https://images.unsplash.com/photo-1600180758890-6b945d3d4b2c?fit=crop&w=600&h=400&q=80"
+          alt="Smart Watch"
+        />
+        <h3>Smart Watch</h3>
+        <p>$99.99</p>
+      </a>
+      <a href="product3.html" class="product">
+        <img
+          src="https://images.unsplash.com/photo-1585386959984-a415522c270b?fit=crop&w=600&h=400&q=80"
+          alt="Earbuds"
+        />
+        <h3>Wireless Earbuds</h3>
+        <p>$29.99</p>
+      </a>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 CoolStore. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
